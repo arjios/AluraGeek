@@ -18,6 +18,33 @@
     <link rel="stylesheet" href="./css/Header/Login/loginText.css">
     <link rel="stylesheet" href="./css/Header/Banner/banner.css">
     <link rel="stylesheet" href="./css/Header/Banner/bannerImg.css">
+    <link rel="stylesheet" href="./css/Header/Banner/bannerTitle.css">
+    <link rel="stylesheet" href="./css/Header/Banner/bannerSubtitle.css">
+    <link rel="stylesheet" href="./css/Header/Banner/bannerButton.css">
+    <link rel="stylesheet" href="./css/Header/Banner/bannerText.css">
+    <link rel="stylesheet" href="./css/Main/products.css">
+    <link rel="stylesheet" href="./css/Main/Products/productDescription.css">
+    <link rel="stylesheet" href="./css/Main/Products/productTitle.css">
+    <link rel="stylesheet" href="./css/Main/Products/productLink.css">
+    <link rel="stylesheet" href="./css/Main/Products/productLinkText.css">
+    <link rel="stylesheet" href="./css/Main/cards.css">
+    <link rel="stylesheet" href="./css/Main/Cards/card.css">
+    <link rel="stylesheet" href="./css/Main/Cards/cardTitle.css">
+    <link rel="stylesheet" href="./css/Main/Cards/cardPrice.css">
+    <link rel="stylesheet" href="./css/Main/Cards/cardLink.css">
+    <link rel="stylesheet" href="./css/Main/Cards/cardLinkText.css">
+    <link rel="stylesheet" href="./css/Main/alurageek.css">
+    <link rel="stylesheet" href="./css/Main/Alurageek/alurageek__links.css">
+    <link rel="stylesheet" href="./css/Main/Alurageek/alurageek__link.css">
+    <link rel="stylesheet" href="./css/Main/contact.css">
+    <link rel="stylesheet" href="./css/Main/Contact/contactTitle.css">
+    <link rel="stylesheet" href="./css/Main/Contact/contactPlacelabel.css">
+    <link rel="stylesheet" href="./css/Main/Contact/contactInput.css">
+    <link rel="stylesheet" href="./css/Main/Contact/contactTextarea.css">
+    <link rel="stylesheet" href="./css/Main/footer.css">
+    <link rel="stylesheet" href="./css/Main/Footer/footerLabel.css">
+    <link rel="stylesheet" href="./css/Main/Contact/contactButton.css">
+    <link rel="stylesheet" href="./css/Main/Contact/contactLabel.css">
 
 
     <title>Alura Geek</title>
@@ -32,16 +59,17 @@
                     <input class="logo__input" type="text" placeholder="O que deseja encontrar?" />
                     <img class="logo__search" src="./assets/images/lupa.png" alt="IconSearch">
                 </div>
+                <div class="login">
+                    <button class="login__button">
+                        <a href="#" class="login__link">
+                            <i class="login__text">Login</i>
+                        </a>
+                    </button>
+                    <img class="login__icon" src="./assets/images/search_small.png" alt="IconSearchBold">
+                </div>
             </div>
 
-            <div class="login">
-                <button class="login__button">
-                    <a href="#" class="login__link">
-                        <i class="login__text">Login</i>
-                    </a>
-                </button>
-                <img class="login__icon" src="./assets/images/search_small.png" alt="IconSearchBold">
-            </div>
+
 
         </section>
         
@@ -50,14 +78,195 @@
 
     <section class="banner">
         <img class="banner__img" src="./assets/images/Hero.png" alt="Banner">
+        <h1 class="banner__title">Dezembro promocional</h1>
+        <h4 class="banner__subtitle">Produtos selecionados com 33% de desconto</h4>
+        <a href="#" class="banner__button">
+            <i class="banner__text">Ver Consoles</i>
+        </a>
+
+
     </section>
 
     <main class="main">
+        <section class="products">
+            <div class="product__description">
+                <h1 class="product__title">Star Wars</h1>
+                <a href="#" class="product__link">
+                    <h3 class="product__link--text">Ver Tudo</h3>
+                    <img class="product__link--icon" src="./assets/images/produtos/setar.png" alt="Seta direita">
+                </a>
+            </div>
+            <div class="cards">
+                <ul class="cards">
+                    <li class="card">
+                        <img src="./assets/images/produtos/Caneca.png" alt="Cup">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <img src="./assets/images/produtos/Darth.png" alt="Darth Vader">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <img src="./assets/images/produtos/Vinte.png" alt="Vinte">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <img src="./assets/images/produtos/Soldier.png" alt="Soldier">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="product__description">
+                <h1 class="product__title">Consoles</h1>
+                <a href="#" class="product__link">
+                    <h3 class="product__link--text">Ver Tudo</h3>
+                    <img class="product__link--icon" src="./assets/images/produtos/setar.png" alt="Seta direita">
+                </a>
+            </div>
+            <div class="cards">
+                <ul class="cards">
+                    <li class="card">
+                        <img src="./assets/images/produtos/Caneca.png" alt="Cup">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <img src="./assets/images/produtos/Darth.png" alt="Darth Vader">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <img src="./assets/images/produtos/Vinte.png" alt="Vinte">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <img src="./assets/images/produtos/Soldier.png" alt="Soldier">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="product__description">
+                <h1 class="product__title">Diversos</h1>
+                <a href="#" class="product__link">
+                    <h3 class="product__link--text">Ver Tudo</h3>
+                    <img class="product__link--icon" src="./assets/images/produtos/setar.png" alt="Seta direita">
+                </a>
+            </div>
+            <div class="cards">
+                <ul class="cards">
+                    <li class="card">
+                        <img src="./assets/images/produtos/Caneca.png" alt="Cup">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <img src="./assets/images/produtos/Darth.png" alt="Darth Vader">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <img src="./assets/images/produtos/Vinte.png" alt="Vinte">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <img src="./assets/images/produtos/Soldier.png" alt="Soldier">
+                        <h2 class="card__title">Produto XYZ</h2>
+                        <h2 class="card__price">R$ 60,00</h2>
+                        <a href="#" class="card__link">
+                            <h3 class="card__link--text">Ver produto</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="alurageek">
+            <img class="logo__img"  src="./assets/images/Logo.png" alt="Logo">
+            <a href="" class="alurageek__links">
+                <h1 class="alurageek__link">Quem somos nós</h1>
+            </a>
+            <a href="" class="alurageek__links">
+                <h1 class="alurageek__link">Politica de privacidade</h1>
+            </a>
+            <a href="" class="alurageek__links">
+                <h1 class="alurageek__link">Programa fidelidade</h1>
+            </a>
+            <a href="" class="alurageek__links">
+                <h1 class="alurageek__link">Nossas lojas</h1>
+            </a>
+            <a href="" class="alurageek__links">
+                <h1 class="alurageek__link">Quero ser franqueado</h1>
+            </a>
+            <a href="" class="alurageek__links">
+                <h1 class="alurageek__link">Anuncie aqui</h1>
+            </a>
+            <form class="contact">
+                <label class="contact__title">
+                    Fale conosco
+                </label>
+                    <h5 class="contact__placelabel">
+                        Nome
+                    </h5>
+                    <input class="contact__input" type="text"/>
+                <textarea class="contact__textarea" name="mensagem" id="" cols="30" rows="5" placeholder="Escreva sua mensagem"></textarea>
+                <button type="submit" class="contact__button">
+                    <label class="contact__label">Enviar</label>
+                </button>
+            </form>
+
+        </section>
 
     </main>
 
     <footer class="footer">
-
+        <label class="footer__label">Desenvolvido por Antonio Alves</label>
+        <label class="footer__label">2022</label>
     </footer>
 </body>
 </html>

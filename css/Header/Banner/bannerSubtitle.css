@@ -1,0 +1,12 @@
+.banner__subtitle {
+    position: relative;
+    height: 50%;
+    margin-top: -40px;
+    margin-left: 1rem;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+  }

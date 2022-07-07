@@ -1,0 +1,11 @@
+.banner__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a7ae4;
+  height: 40px;
+  margin-top: -55px;
+  margin-left: 1rem;
+  text-decoration: none;
+  width: 119px;
+}
